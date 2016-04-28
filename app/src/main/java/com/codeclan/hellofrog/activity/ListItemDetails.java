@@ -51,7 +51,7 @@ public class ListItemDetails extends AppCompatActivity {
 
         mNameText.setText("Amphibian Name: " + name);
         mSpeciesText.setText("They are a: " + species);
-        mMediaText.setText("From: " + media);
+        mMediaText.setText("They are from: " + media);
     }
 }
 

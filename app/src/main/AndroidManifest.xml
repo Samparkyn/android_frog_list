@@ -27,8 +27,9 @@
 
         <activity
             android:name="com.codeclan.hellofrog.activity.ListItemDetails"
-            android:label="Amphibian List Details"
-            android:parentActivityName="com.codeclan.hellofrog.activity.HelloFrog">
+            android:label="Amphibian List Details">
+            <!-- This adds a back button so that you can get it back to the parent activity-->
+            <!--android:parentActivityName="com.codeclan.hellofrog.activity.HelloFrog">-->
 
         </activity>
 

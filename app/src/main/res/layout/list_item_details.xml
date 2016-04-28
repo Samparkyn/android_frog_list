@@ -5,6 +5,14 @@
     android:layout_height="match_parent"
     android:background="#009900">
 
+    <TextView
+        android:text="Your chosen Amphibian"
+        android:textSize="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -17,29 +25,43 @@
 
     <TextView
         android:text="test"
+        android:textSize="20dp"
         android:id="@+id/list_item_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
         android:layout_alignTop="@id/list_item_img"
         android:layout_toRightOf="@id/list_item_img"/>
 
     <TextView
         android:text="species"
+        android:textSize="20dp"
         android:id="@+id/list_item_species"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="150dp"
+        android:layout_marginLeft="100dp"
         android:layout_marginTop="20dp"
         android:layout_below="@id/list_item_name"
         android:layout_toRightOf="@id/list_item_img"/>
 
     <TextView
         android:text="media"
+        android:textSize="20dp"
         android:id="@+id/list_item_media"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="150dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/list_item_species"
+        android:layout_toRightOf="@id/list_item_img"/>
+
+    <TextView
+        android:text="They have 4 legs.. incase you didn't know.."
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
         android:layout_marginTop="20dp"
         android:layout_below="@id/list_item_species"
         android:layout_toRightOf="@id/list_item_img"/>
