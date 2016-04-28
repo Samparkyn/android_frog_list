@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HelloFrog</string>
+    <string name="app_header">Hello Frog!</string>
+    <string name="hello_frog">Hello Frog :-)</string>
+    <string name="hello_toad">Hello Toad :-)</string>
+    <string name="label_name">Name</string>
+    <string name="label_species">Species</string>
+    <string name="submit_button">Submit</string>
+    <string name="activity_details">Amphibian Details</string>
+</resources>
